@@ -1,0 +1,68 @@
+@startuml FasesCompilador
+
+title Fases de un Compilador
+
+skinparam rectangle {
+    BorderColor DarkSlateGray
+    BorderWidth 2
+    FontName Arial
+    FontSize 14
+    FontStyle Bold
+    BackgroundColor<<Alto nivel>> PaleTurquoise
+    BackgroundColor<<analisis>> PaleGreen
+    BackgroundColor<<sintesis>> Orange
+    BackgroundColor<<error>> LightCoral
+    BackgroundColor<<symbol>> Khaki
+    BackgroundColor<<Bajo nivel>> LightGray
+}
+
+rectangle "Programa Fuente" as fuente <<Alto nivel>>
+
+rectangle "Administrador de la tabla de símbolos" as tabla <<symbol>>
+
+together {
+    rectangle  "Fase de Análisis"  {
+    rectangle "Analizador Léxico" as lexico <<analisis>>
+    rectangle "Analizador Sintáctico" as sintactico <<analisis>>
+    rectangle "Analizador Semántico" as semantico <<analisis>>
+    } 
+    rectangle  "Fase de Síntesis"  {
+    rectangle "Generador de Código Intermedio" as intermedio <<sintesis>>
+    rectangle "Optimizador de Código" as optimizador <<sintesis>>
+    rectangle "Generador de Código Objeto" as objeto <<sintesis>>
+    } 
+}
+
+rectangle "Manejador de Errores" as errores <<error>>
+
+rectangle "Programa Objeto" as objeto_final <<Bajo nivel>>
+
+fuente --> lexico
+lexico --> sintactico
+sintactico --> semantico
+semantico --> intermedio
+intermedio --> optimizador
+optimizador --> objeto
+
+lexico --> errores
+sintactico --> errores
+semantico --> errores
+intermedio --> errores
+optimizador --> errores
+objeto --> errores
+
+tabla --> lexico
+tabla --> sintactico
+tabla --> semantico
+tabla --> intermedio
+tabla --> optimizador
+tabla --> objeto
+
+objeto --> objeto_final
+
+note right of fuente: Entrada del compilador
+note right of tabla: Almacena los símbolos encontrados
+note right of errores: Gestiona los errores encontrados
+note right of objeto_final: Salida del compilador
+
+@enduml
