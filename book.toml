@@ -1,6 +1,6 @@
 [book]
 authors = ["Leonardo Espejo"]
-language = "en"
+language = "es"
 multilingual = false
 src = "src"
 title = "Teoria de Lenguajes de Programacion y Metodos de Traduccion I"
