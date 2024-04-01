@@ -15,7 +15,7 @@ Los resúmenes pueden ser visualizados en línea utilizando mdBook o descargados
 
 ### Visualización en Línea
 
-Puedes acceder a los resúmenes en línea utilizando mdBook. Visita [link al sitio web del libro](#) para comenzar a explorar.
+Puedes acceder a los resúmenes en línea utilizando mdBook. Visita [link al sitio web del libro](https://leo-spj.github.io/mdBook-TLPMT1) para comenzar a explorar.
 
 ### Uso Local
 
