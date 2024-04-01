@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="en" class="light" dir="ltr">
+<html lang="es" class="light" dir="ltr">
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
@@ -175,12 +175,176 @@
                 <div id="content" class="content">
                     <main>
                         <h1 id="introducción"><a class="header" href="#introducción">Introducción</a></h1>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="unidad-1-lenguajes-lenguajes-regulares-y-expresiones-regulares"><a class="header" href="#unidad-1-lenguajes-lenguajes-regulares-y-expresiones-regulares">Unidad 1: Lenguajes, Lenguajes regulares y expresiones regulares</a></h1>
+<p>Este material está diseñado para proporcionar a los estudiantes las bases necesarias para analizar, diseñar e implementar la fase de Analizador Léxico de un Compilador, de acuerdo con las exigencias del entorno empresarial.</p>
+<h2 id="fundamentación"><a class="header" href="#fundamentación">Fundamentación</a></h2>
+<p>El curso se centra en establecer los fundamentos esenciales que capacitarán al estudiante para abordar la fase del Analizador Léxico de un Compilador. Se explorarán temas clave como Lenguajes, Lenguajes regulares y expresiones regulares, Autómatas deterministas y no deterministas, el manejo de la herramienta Flex, y finalmente, la definición formal de una gramática.</p>
+<h2 id="sumilla"><a class="header" href="#sumilla">Sumilla</a></h2>
+<p>Este curso, de naturaleza teórica, aborda los siguientes temas:</p>
+<ul>
+<li>Lenguajes, Lenguajes regulares y expresiones regulares.</li>
+<li>Autómatas deterministas y no deterministas.</li>
+<li>Manejo de la herramienta Flex.</li>
+<li>Definición formal de una gramática.</li>
+</ul>
+<h2 id="logro-general-de-aprendizaje"><a class="header" href="#logro-general-de-aprendizaje">Logro General de Aprendizaje</a></h2>
+<p>Al término del curso, los estudiantes serán capaces de utilizar las reglas gramaticales para determinar el orden de las cadenas mediante la herramienta Flex.</p>
+<h2 id="unidades-y-logros-específicos-de-aprendizaje"><a class="header" href="#unidades-y-logros-específicos-de-aprendizaje">Unidades y Logros Específicos de Aprendizaje</a></h2>
+<h3 id="unidad-de-aprendizaje-1-lenguajes-lenguajes-regulares-y-expresiones-regulares"><a class="header" href="#unidad-de-aprendizaje-1-lenguajes-lenguajes-regulares-y-expresiones-regulares">Unidad de Aprendizaje 1: Lenguajes, Lenguajes regulares y expresiones regulares</a></h3>
+<p>En esta unidad, los estudiantes desarrollarán habilidades para formar unidades lógicas llamadas Tokens, leyendo los caracteres de un programa de un lenguaje de programación mediante expresiones regulares.</p>
+<h3 id="unidad-de-aprendizaje-2-autómatas-deterministas-y-no-deterministas"><a class="header" href="#unidad-de-aprendizaje-2-autómatas-deterministas-y-no-deterministas">Unidad de Aprendizaje 2: Autómatas deterministas y no deterministas</a></h3>
+<p>Los estudiantes aprenderán a describir procesos para el reconocimiento de patrones de cadenas para formar los Tokens de un lenguaje de programación.</p>
+<h3 id="unidad-de-aprendizaje-3-manejo-de-la-herramienta-flex"><a class="header" href="#unidad-de-aprendizaje-3-manejo-de-la-herramienta-flex">Unidad de Aprendizaje 3: Manejo de la herramienta Flex</a></h3>
+<p>En esta unidad, los estudiantes realizarán el análisis léxico sobre cada frase de un programa de un lenguaje de programación con los Tokens provenientes del analizador léxico.</p>
+<h3 id="unidad-de-aprendizaje-4-definición-formal-de-una-gramática"><a class="header" href="#unidad-de-aprendizaje-4-definición-formal-de-una-gramática">Unidad de Aprendizaje 4: Definición formal de una gramática</a></h3>
+<p>Los estudiantes utilizarán las reglas gramaticales que determinan el orden en que deben ir las cadenas aceptadas en un determinado lenguaje.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="resumen-unidad-de-compiladores-y-lenguajes-formales"><a class="header" href="#resumen-unidad-de-compiladores-y-lenguajes-formales">Resumen: Unidad de Compiladores y Lenguajes Formales</a></h1>
+<h2 id="compiladores-y-lenguajes-de-programación"><a class="header" href="#compiladores-y-lenguajes-de-programación">Compiladores y Lenguajes de Programación</a></h2>
+<p>En esta sección, se abordan los fundamentos esenciales relacionados con los compiladores y los lenguajes de programación. Se examina el papel de los traductores, incluyendo tanto intérpretes como compiladores, en la transformación del código fuente en código ejecutable. Asimismo, se proporciona una exposición detallada sobre la función y la importancia de los compiladores en el proceso de traducción.</p>
+<h2 id="análisis-léxico-y-procesamiento-de-cadenas"><a class="header" href="#análisis-léxico-y-procesamiento-de-cadenas">Análisis Léxico y Procesamiento de Cadenas</a></h2>
+<p>El análisis léxico se presenta como la etapa inicial y fundamental en el proceso de traducción. Se discuten los aspectos clave de esta fase, que incluyen la lectura del código fuente y las funciones del analizador léxico. Además, se exploran los conceptos de componentes léxicos, como lexemas y tokens, y se examina el proceso de reconocimiento de estos componentes para generar tokens en un lenguaje de programación.</p>
+<h2 id="lenguajes-formales-y-expresiones-regulares"><a class="header" href="#lenguajes-formales-y-expresiones-regulares">Lenguajes Formales y Expresiones Regulares</a></h2>
+<p>En esta sección, se introduce el concepto de lenguaje simbólico y se exploran sus componentes básicos, como la concatenación, la potencia y las cerraduras en conjuntos y cadenas. Se define el concepto de lenguaje, así como las operaciones fundamentales entre lenguajes. Además, se profundiza en el uso de expresiones regulares como herramientas para describir patrones en cadenas de texto, incluyendo las operaciones y extensiones asociadas.</p>
+<h2 id="expresiones-regulares-para-tokens-de-lenguajes-de-programación"><a class="header" href="#expresiones-regulares-para-tokens-de-lenguajes-de-programación">Expresiones Regulares para Tokens de Lenguajes de Programación</a></h2>
+<p>Se analiza el uso específico de expresiones regulares en la identificación de tokens en lenguajes de programación. Se categorizan los tokens, como palabras reservadas, símbolos especiales, identificadores y literales, y se presentan ejemplos de expresiones regulares para reconocer números enteros y reales, así como identificadores y tokens específicos de un lenguaje.</p>
+<h2 id="autómatas-y-reconocimiento-de-lenguajes"><a class="header" href="#autómatas-y-reconocimiento-de-lenguajes">Autómatas y Reconocimiento de Lenguajes</a></h2>
+<p>Finalmente, se introduce el concepto de autómatas finitos deterministas (DFA) como herramientas para el reconocimiento de lenguajes. Se analizan los componentes esenciales de un DFA, incluyendo estados, estado inicial y estados finales, así como su representación mediante tabla y diagrama. Además, se explora el concepto de lenguaje reconocido por un autómata finito determinista.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="compilador-fundamentos-de-compiladores-y-lenguajes-de-programación"><a class="header" href="#compilador-fundamentos-de-compiladores-y-lenguajes-de-programación">Compilador. Fundamentos de compiladores y lenguajes de Programación</a></h1>
+<h2 id="1-introducción-a-los-compiladores"><a class="header" href="#1-introducción-a-los-compiladores">1. Introducción a los Compiladores</a></h2>
+<ul>
+<li>Definición de Compilador</li>
+<li>Fundamentos de Compiladores y Lenguajes de Programación</li>
+<li>Tipos de Traductores: Interprete vs Compilador</li>
+</ul>
+<h2 id="2-compilador-conceptos-básicos"><a class="header" href="#2-compilador-conceptos-básicos">2. Compilador: Conceptos Básicos</a></h2>
+<ul>
+<li>Funcionamiento General del Compilador</li>
+<li>Proceso de Traducción: Desde el Código Fuente hasta el Código Objeto</li>
+<li>Análisis Léxico: Primera Etapa del Proceso de Compilación</li>
+</ul>
+<h2 id="3-análisis-léxico"><a class="header" href="#3-análisis-léxico">3. Análisis Léxico</a></h2>
+<ul>
+<li>Definición y Funciones del Analizador Léxico</li>
+<li>Componente Léxico: Unidad Básica de Análisis</li>
+<li>Lexema: Concepto y Ejemplos</li>
+<li>Reconocimiento de Componentes Léxicos: Patrones y Reglas de Tokenización</li>
+</ul>
+<h2 id="4-tokenización-en-compiladores"><a class="header" href="#4-tokenización-en-compiladores">4. Tokenización en Compiladores</a></h2>
+<ul>
+<li>Token: Definición y Significado en un Lenguaje de Programación</li>
+<li>Importancia de los Tokens en el Proceso de Compilación</li>
+<li>Ejemplos de Tokens en Lenguajes de Programación Comunes</li>
+</ul>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="lenguaje-símbolo-concatenación-de-símbolos"><a class="header" href="#lenguaje-símbolo-concatenación-de-símbolos">Lenguaje Símbolo. Concatenación de símbolos</a></h1>
+<h2 id="1-lenguaje-símbolo"><a class="header" href="#1-lenguaje-símbolo">1. Lenguaje Símbolo</a></h2>
+<ul>
+<li>Concatenación de Símbolos</li>
+<li>Alfabeto o Vocabulario</li>
+<li>Cadena de Expresión o Palabra</li>
+<li>La Cadena Vacía</li>
+<li>Concatenación de Cadenas</li>
+<li>Potencia de una Cadena</li>
+<li>Concatenación de Conjuntos de Cadenas</li>
+<li>Potencia de un Conjunto de Cadenas</li>
+<li>Cerradura Positiva y Cerradura de Kleene de un Conjunto de Cadenas</li>
+<li>Potencia de un Alfabeto</li>
+<li>La Cerradura de un Alfabeto</li>
+<li>La Estrella de Kleene de un Alfabeto</li>
+<li>Prefijo, Sufijo y Subcadena</li>
+</ul>
+<h2 id="2-definición-de-lenguaje"><a class="header" href="#2-definición-de-lenguaje">2. Definición de Lenguaje</a></h2>
+<ul>
+<li>El Lenguaje Vacío</li>
+<li>Lenguajes Básicos</li>
+<li>Operaciones con Lenguajes:
+<ul>
+<li>Unión</li>
+<li>Intersección</li>
+<li>Diferencia</li>
+<li>Complemento</li>
+<li>Concatenación</li>
+<li>Cerradura Positiva</li>
+<li>Estrella de Kleene de Lenguajes</li>
+</ul>
+</li>
+</ul>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="lenguaje-regular-lenguajes-básicos"><a class="header" href="#lenguaje-regular-lenguajes-básicos">Lenguaje regular. Lenguajes básicos</a></h1>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="expresiones-regulares-para-tokens-de-lenguajes-de-programación"><a class="header" href="#expresiones-regulares-para-tokens-de-lenguajes-de-programación">Expresiones regulares para tokens de lenguajes de programación</a></h1>
+<h2 id="1-lenguaje-regular"><a class="header" href="#1-lenguaje-regular">1. Lenguaje Regular</a></h2>
+<ul>
+<li>Lenguajes Básicos</li>
+<li>Definición Recursiva de un Lenguaje Regular</li>
+<li>Expresiones Regulares</li>
+<li>Expresiones Regulares Básicas</li>
+<li>Lenguaje al Cual Representa una Expresión Regular</li>
+</ul>
+<h2 id="2-operaciones-con-expresiones-regulares"><a class="header" href="#2-operaciones-con-expresiones-regulares">2. Operaciones con Expresiones Regulares</a></h2>
+<ul>
+<li>Selección entre Alternativas (|)</li>
+<li>Concatenación</li>
+<li>Repetición o Cerradura de Kleene (*)</li>
+<li>Opcional (?)</li>
+<li>Definición Recursiva de una Expresión Regular</li>
+<li>Precedencia de Operaciones y Uso de Paréntesis en las Expresiones Regulares</li>
+<li>Nombres para Expresiones Regulares</li>
+<li>Definición Regular del Nombre Dígito</li>
+</ul>
+<h2 id="3-extensiones-para-las-expresiones-regulares"><a class="header" href="#3-extensiones-para-las-expresiones-regulares">3. Extensiones para las Expresiones Regulares</a></h2>
+<ul>
+<li>Una o Más Repeticiones</li>
+<li>Cualquier Carácter</li>
+<li>Intervalo de Caracteres</li>
+<li>Cualquier Carácter que no Esté en un Conjunto Dado</li>
+<li>Subexpresiones Opcionales</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="expresiones-regulares-para-tokens-de-lenguajes-de-programación-1"><a class="header" href="#expresiones-regulares-para-tokens-de-lenguajes-de-programación-1">Expresiones regulares para tokens de lenguajes de programación</a></h1>
+<h2 id="1-expresiones-regulares-para-tokens-de-lenguajes-de-programación"><a class="header" href="#1-expresiones-regulares-para-tokens-de-lenguajes-de-programación">1. Expresiones Regulares para Tokens de Lenguajes de Programación</a></h2>
+<ul>
+<li>Palabras Reservadas</li>
+<li>Símbolos Especiales</li>
+<li>Identificadores</li>
+<li>Literales o Constantes</li>
+</ul>
+<h2 id="2-expresiones-regulares-para-números"><a class="header" href="#2-expresiones-regulares-para-números">2. Expresiones Regulares para Números</a></h2>
+<ul>
+<li>Números Enteros con Signo y sin Signo</li>
+<li>Números Reales con Signo y sin Signo</li>
+<li>Números Reales en Notación Punto Flotante</li>
+</ul>
+<h2 id="3-expresiones-regulares-para-identificadores"><a class="header" href="#3-expresiones-regulares-para-identificadores">3. Expresiones Regulares para Identificadores</a></h2>
+<ul>
+<li>Definición y Ejemplos de Identificadores en un Lenguaje de Programación</li>
+<li>Expresión Regular para Identificadores</li>
+</ul>
+<h2 id="4-expresiones-regulares-para-tokens-específicos"><a class="header" href="#4-expresiones-regulares-para-tokens-específicos">4. Expresiones Regulares para Tokens Específicos</a></h2>
+<ul>
+<li>Ejemplos de Expresiones Regulares para Tokens de un Lenguaje de Programación</li>
+<li>Conjunto de Tokens del Analizador Léxico, como:
+<ul>
+<li>IF</li>
+<li>THEN</li>
+<li>ELSE</li>
+<li>PLUS</li>
+<li>MINUS</li>
+<li>TIMES</li>
+</ul>
+</li>
+</ul>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="autómatas-autómatas-finitos-deterministas-dfa"><a class="header" href="#autómatas-autómatas-finitos-deterministas-dfa">Autómatas. Autómatas finitos deterministas (DFA)</a></h1>
+<h2 id="1-autómatas"><a class="header" href="#1-autómatas">1. Autómatas</a></h2>
+<ul>
+<li>Introducción a los Autómatas</li>
+<li>Autómatas Finitos Deterministas (DFA)
+<ul>
+<li>Definición y Características</li>
+<li>Estados, Estado Inicial, Estados Finales</li>
+<li>Tabla y Diagrama de un Autómata Finito</li>
+</ul>
+</li>
+</ul>
+<h2 id="2-lenguaje-reconocido-por-un-autómata-finito-determinista"><a class="header" href="#2-lenguaje-reconocido-por-un-autómata-finito-determinista">2. Lenguaje Reconocido por un Autómata Finito Determinista</a></h2>
+<ul>
+<li>Definición del Lenguaje Reconocido</li>
+<li>Proceso de Reconocimiento de Cadenas</li>
+</ul>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="unidad-2-autómatas-deterministas-y-autómatas-no-deterministas"><a class="header" href="#unidad-2-autómatas-deterministas-y-autómatas-no-deterministas">Unidad 2: Autómatas deterministas y autómatas no deterministas</a></h1>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="definición-de-un-autómata-finito-no-determinista-nfa"><a class="header" href="#definición-de-un-autómata-finito-no-determinista-nfa">Definición de un Autómata Finito no determinista (NFA)</a></h1>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="ejemplos-de-la-relación-de-expresiones-regulares-lenguajes-regulares-y-los-autómatas"><a class="header" href="#ejemplos-de-la-relación-de-expresiones-regulares-lenguajes-regulares-y-los-autómatas">Ejemplos de la relación de expresiones regulares, lenguajes regulares y los autómatas</a></h1>
