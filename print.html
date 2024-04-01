@@ -1,9 +1,9 @@
 <!DOCTYPE HTML>
-<html lang="es" class="light" dir="ltr">
+<html lang="es" class="rust" dir="ltr">
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>Teoria de Lenguajes de Programacion y Metodos de Traduccion I</title>
+        <title>Lenguajes de Programacion y Metodos de Traduccion I</title>
         <meta name="robots" content="noindex">
 
 
@@ -37,7 +37,7 @@
         <!-- Provide site root to javascript -->
         <script>
             var path_to_root = "";
-            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "ayu" : "rust";
         </script>
 
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
@@ -62,7 +62,7 @@
             try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
             if (theme === null || theme === undefined) { theme = default_theme; }
             var html = document.querySelector('html');
-            html.classList.remove('light')
+            html.classList.remove('rust')
             html.classList.add(theme);
             var body = document.querySelector('body');
             body.classList.remove('no-js')
@@ -89,7 +89,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="index.html"><strong aria-hidden="true">1.</strong> Introducción</a></li><li class="chapter-item expanded "><a href="U1/index.html"><strong aria-hidden="true">2.</strong> Unidad 1: Lenguajes, Lenguajes regulares y expresiones regulares</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="U1/U1S1.html"><strong aria-hidden="true">2.1.</strong> Compilador. Fundamentos de compiladores y lenguajes de Programación</a></li><li class="chapter-item expanded "><a href="U1/U1S2.html"><strong aria-hidden="true">2.2.</strong> Lenguaje Símbolo. Concatenación de símbolos</a></li><li class="chapter-item expanded "><a href="U1/U1S3.html"><strong aria-hidden="true">2.3.</strong> Lenguaje regular. Lenguajes básicos</a></li><li class="chapter-item expanded "><a href="U1/U1S4.html"><strong aria-hidden="true">2.4.</strong> Expresiones regulares para tokens de lenguajes de programación</a></li><li class="chapter-item expanded "><a href="U1/U1S5.html"><strong aria-hidden="true">2.5.</strong> Autómatas. Autómatas finitos deterministas (DFA)</a></li></ol></li><li class="chapter-item expanded "><a href="U2/index.html"><strong aria-hidden="true">3.</strong> Unidad 2: Autómatas deterministas y autómatas no deterministas</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="U2/U2S6.html"><strong aria-hidden="true">3.1.</strong> Definición de un Autómata Finito no determinista (NFA)</a></li><li class="chapter-item expanded "><a href="U2/U2S7.html"><strong aria-hidden="true">3.2.</strong> Ejemplos de la relación de expresiones regulares, lenguajes regulares y los autómatas</a></li><li class="chapter-item expanded "><a href="U2/U2S8.html"><strong aria-hidden="true">3.3.</strong> Teorema de Kleene: Un Lenguaje es regular si y solo si es reconocido por un autómata finito</a></li><li class="chapter-item expanded "><a href="U2/U2S9.html"><strong aria-hidden="true">3.4.</strong> Teorema: Si un lenguaje es reconocido por un autómata finito no determinista entonces dicho lenguaje también es reconocido por un autómata finito determinista</a></li><li class="chapter-item expanded "><a href="U2/U2S10.html"><strong aria-hidden="true">3.5.</strong> Conversión de AF no determinista en Determinístico por el algoritmo de la construcción de sub-conjuntos</a></li></ol></li><li class="chapter-item expanded "><a href="U3/index.html"><strong aria-hidden="true">4.</strong> Unidad 3: Manejo de la herramienta Flex</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="U3/U3S11.html"><strong aria-hidden="true">4.1.</strong> FLEX una herramienta para generar analizadores léxicos</a></li><li class="chapter-item expanded "><a href="U3/U3S12.html"><strong aria-hidden="true">4.2.</strong> El formato de un archivo de entrada de FLEX</a></li><li class="chapter-item expanded "><a href="U3/U3S13.html"><strong aria-hidden="true">4.3.</strong> Uso del FLEX para diferentes tareas</a></li><li class="chapter-item expanded "><a href="U3/U3S14.html"><strong aria-hidden="true">4.4.</strong> Utilización del FLEX para otras tareas</a></li><li class="chapter-item expanded "><a href="U3/U3S15.html"><strong aria-hidden="true">4.5.</strong> Uso del Flex para generar un analizador léxico</a></li></ol></li><li class="chapter-item expanded "><a href="U4/index.html"><strong aria-hidden="true">5.</strong> Unidad 4: Definición formal de una gramática</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="U4/U4S16.html"><strong aria-hidden="true">5.1.</strong> Máquinas de Estados Finitos</a></li><li class="chapter-item expanded "><a href="U4/U4S17.html"><strong aria-hidden="true">5.2.</strong> Máquina de estado finito para diferentes aplicaciones</a></li><li class="chapter-item expanded "><a href="U4/U4S18.html"><strong aria-hidden="true">5.3.</strong> Evaluación final individual</a></li></ol></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="index.html">Introducción</a></li><li class="chapter-item expanded affix "><li class="part-title">Unidad 1</li><li class="chapter-item expanded "><a href="U1/index.html"><strong aria-hidden="true">1.</strong> Lenguajes, Lenguajes regulares y expresiones regulares</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="U1/U1S1/index.html"><strong aria-hidden="true">1.1.</strong> Compilador</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="U1/U1S1/t1.html"><strong aria-hidden="true">1.1.1.</strong> Introducción a los compiladores</a></li><li class="chapter-item expanded "><a href="U1/U1S1/t2.html"><strong aria-hidden="true">1.1.2.</strong> Compilador: Conceptos Básicos</a></li><li class="chapter-item expanded "><a href="U1/U1S1/t3.html"><strong aria-hidden="true">1.1.3.</strong> Análisis Léxico</a></li><li class="chapter-item expanded "><a href="U1/U1S1/t4.html"><strong aria-hidden="true">1.1.4.</strong> Tokenización en Compiladores</a></li></ol></li><li class="chapter-item expanded "><a href="U1/U1S2/index.html"><strong aria-hidden="true">1.2.</strong> Lenguaje Símbolo</a></li><li class="chapter-item expanded "><a href="U1/U1S3/index.html"><strong aria-hidden="true">1.3.</strong> Lenguaje regular</a></li><li class="chapter-item expanded "><a href="U1/U1S4/index.html"><strong aria-hidden="true">1.4.</strong> Expresiones regulares para tokens</a></li><li class="chapter-item expanded "><a href="U1/U1S5/index.html"><strong aria-hidden="true">1.5.</strong> Autómatas finitos deterministas (DFA)</a></li></ol></li><li class="chapter-item expanded "><li class="part-title">Unidad 2</li><li class="chapter-item expanded "><a href="U2/index.html"><strong aria-hidden="true">2.</strong> Autómatas deterministas y autómatas no deterministas</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="U2/U2S6.html"><strong aria-hidden="true">2.1.</strong> Definición de un Autómata Finito no determinista (NFA)</a></li><li class="chapter-item expanded "><a href="U2/U2S7.html"><strong aria-hidden="true">2.2.</strong> Ejemplos de relación de expresiones regulares y autómatas</a></li><li class="chapter-item expanded "><a href="U2/U2S8.html"><strong aria-hidden="true">2.3.</strong> Teorema de Kleene</a></li><li class="chapter-item expanded "><a href="U2/U2S9.html"><strong aria-hidden="true">2.4.</strong> Teorema de conversión de AF no determinista en determinista</a></li><li class="chapter-item expanded "><a href="U2/U2S10.html"><strong aria-hidden="true">2.5.</strong> Conversión de AF no determinista en determinístico</a></li></ol></li><li class="chapter-item expanded "><li class="part-title">Unidad 3</li><li class="chapter-item expanded "><a href="U3/index.html"><strong aria-hidden="true">3.</strong> Manejo de la herramienta Flex</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="U3/U3S11.html"><strong aria-hidden="true">3.1.</strong> FLEX: herramienta para generar analizadores léxicos</a></li><li class="chapter-item expanded "><a href="U3/U3S12.html"><strong aria-hidden="true">3.2.</strong> Formato de un archivo de entrada de FLEX</a></li><li class="chapter-item expanded "><a href="U3/U3S13.html"><strong aria-hidden="true">3.3.</strong> Uso del FLEX para diversas tareas</a></li><li class="chapter-item expanded "><a href="U3/U3S14.html"><strong aria-hidden="true">3.4.</strong> Utilización del FLEX para otras tareas</a></li><li class="chapter-item expanded "><a href="U3/U3S15.html"><strong aria-hidden="true">3.5.</strong> Uso del Flex para generar un analizador léxico</a></li></ol></li><li class="chapter-item expanded "><li class="part-title">Unidad 4</li><li class="chapter-item expanded "><a href="U4/index.html"><strong aria-hidden="true">4.</strong> Definición formal de una gramática</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="U4/U4S16.html"><strong aria-hidden="true">4.1.</strong> Máquinas de Estados Finitos</a></li><li class="chapter-item expanded "><a href="U4/U4S17.html"><strong aria-hidden="true">4.2.</strong> Máquina de estado finito para aplicaciones</a></li><li class="chapter-item expanded "><a href="U4/U4S18.html"><strong aria-hidden="true">4.3.</strong> Evaluación final individual</a></li><li class="spacer"></li></ol></li><li class="chapter-item expanded "><li class="part-title">Bibliografía</li><li class="spacer"></li><li class="chapter-item expanded affix "><li class="part-title">Contribuidores</li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle">
                 <div class="sidebar-resize-indicator"></div>
@@ -142,11 +142,14 @@
                         </button>
                     </div>
 
-                    <h1 class="menu-title">Teoria de Lenguajes de Programacion y Metodos de Traduccion I</h1>
+                    <h1 class="menu-title">Lenguajes de Programacion y Metodos de Traduccion I</h1>
 
                     <div class="right-buttons">
                         <a href="print.html" title="Print this book" aria-label="Print this book">
                             <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://github.com/Leo-Spj/mdBook-TLPMT1" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
                         </a>
 
                     </div>
@@ -174,7 +177,7 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1 id="introducción"><a class="header" href="#introducción">Introducción</a></h1>
+                        <h1 id="teoria-de-lenguajes-de-programacion-y-metodos-de-traduccion-i"><a class="header" href="#teoria-de-lenguajes-de-programacion-y-metodos-de-traduccion-i">Teoria de Lenguajes de Programacion y Metodos de Traduccion I</a></h1>
 <p>Este material está diseñado para proporcionar a los estudiantes las bases necesarias para analizar, diseñar e implementar la fase de Analizador Léxico de un Compilador, de acuerdo con las exigencias del entorno empresarial.</p>
 <h2 id="fundamentación"><a class="header" href="#fundamentación">Fundamentación</a></h2>
 <p>El curso se centra en establecer los fundamentos esenciales que capacitarán al estudiante para abordar la fase del Analizador Léxico de un Compilador. Se explorarán temas clave como Lenguajes, Lenguajes regulares y expresiones regulares, Autómatas deterministas y no deterministas, el manejo de la herramienta Flex, y finalmente, la definición formal de una gramática.</p>
@@ -197,7 +200,8 @@
 <p>En esta unidad, los estudiantes realizarán el análisis léxico sobre cada frase de un programa de un lenguaje de programación con los Tokens provenientes del analizador léxico.</p>
 <h3 id="unidad-de-aprendizaje-4-definición-formal-de-una-gramática"><a class="header" href="#unidad-de-aprendizaje-4-definición-formal-de-una-gramática">Unidad de Aprendizaje 4: Definición formal de una gramática</a></h3>
 <p>Los estudiantes utilizarán las reglas gramaticales que determinan el orden en que deben ir las cadenas aceptadas en un determinado lenguaje.</p>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="resumen-unidad-de-compiladores-y-lenguajes-formales"><a class="header" href="#resumen-unidad-de-compiladores-y-lenguajes-formales">Resumen: Unidad de Compiladores y Lenguajes Formales</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h2 id="resumen-de-unidad-1"><a class="header" href="#resumen-de-unidad-1">Resumen de Unidad 1</a></h2>
+<h1 id="compiladores-y-lenguajes-formales"><a class="header" href="#compiladores-y-lenguajes-formales">Compiladores y Lenguajes Formales</a></h1>
 <h2 id="compiladores-y-lenguajes-de-programación"><a class="header" href="#compiladores-y-lenguajes-de-programación">Compiladores y Lenguajes de Programación</a></h2>
 <p>En esta sección, se abordan los fundamentos esenciales relacionados con los compiladores y los lenguajes de programación. Se examina el papel de los traductores, incluyendo tanto intérpretes como compiladores, en la transformación del código fuente en código ejecutable. Asimismo, se proporciona una exposición detallada sobre la función y la importancia de los compiladores en el proceso de traducción.</p>
 <h2 id="análisis-léxico-y-procesamiento-de-cadenas"><a class="header" href="#análisis-léxico-y-procesamiento-de-cadenas">Análisis Léxico y Procesamiento de Cadenas</a></h2>
@@ -208,7 +212,7 @@
 <p>Se analiza el uso específico de expresiones regulares en la identificación de tokens en lenguajes de programación. Se categorizan los tokens, como palabras reservadas, símbolos especiales, identificadores y literales, y se presentan ejemplos de expresiones regulares para reconocer números enteros y reales, así como identificadores y tokens específicos de un lenguaje.</p>
 <h2 id="autómatas-y-reconocimiento-de-lenguajes"><a class="header" href="#autómatas-y-reconocimiento-de-lenguajes">Autómatas y Reconocimiento de Lenguajes</a></h2>
 <p>Finalmente, se introduce el concepto de autómatas finitos deterministas (DFA) como herramientas para el reconocimiento de lenguajes. Se analizan los componentes esenciales de un DFA, incluyendo estados, estado inicial y estados finales, así como su representación mediante tabla y diagrama. Además, se explora el concepto de lenguaje reconocido por un autómata finito determinista.</p>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="compilador-fundamentos-de-compiladores-y-lenguajes-de-programación"><a class="header" href="#compilador-fundamentos-de-compiladores-y-lenguajes-de-programación">Compilador. Fundamentos de compiladores y lenguajes de Programación</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="fundamentos-de-compiladores-y-lenguajes-de-programación"><a class="header" href="#fundamentos-de-compiladores-y-lenguajes-de-programación">Fundamentos de compiladores y lenguajes de Programación</a></h1>
 <h2 id="1-introducción-a-los-compiladores"><a class="header" href="#1-introducción-a-los-compiladores">1. Introducción a los Compiladores</a></h2>
 <ul>
 <li>Definición de Compilador</li>
@@ -234,6 +238,10 @@
 <li>Importancia de los Tokens en el Proceso de Compilación</li>
 <li>Ejemplos de Tokens en Lenguajes de Programación Comunes</li>
 </ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="introducción-a-los-compiladores"><a class="header" href="#introducción-a-los-compiladores">Introducción a los compiladores</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="compilador-conceptos-básicos"><a class="header" href="#compilador-conceptos-básicos">Compilador: Conceptos Básicos</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="análisis-léxico"><a class="header" href="#análisis-léxico">Análisis Léxico</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="tokenización-en-compiladores"><a class="header" href="#tokenización-en-compiladores">Tokenización en Compiladores</a></h1>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="lenguaje-símbolo-concatenación-de-símbolos"><a class="header" href="#lenguaje-símbolo-concatenación-de-símbolos">Lenguaje Símbolo. Concatenación de símbolos</a></h1>
 <h2 id="1-lenguaje-símbolo"><a class="header" href="#1-lenguaje-símbolo">1. Lenguaje Símbolo</a></h2>
 <ul>
