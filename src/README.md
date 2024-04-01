@@ -1,4 +1,4 @@
-# Introducción
+# Teoria de Lenguajes de Programacion y Metodos de Traduccion I
 
 Este material está diseñado para proporcionar a los estudiantes las bases necesarias para analizar, diseñar e implementar la fase de Analizador Léxico de un Compilador, de acuerdo con las exigencias del entorno empresarial.
 

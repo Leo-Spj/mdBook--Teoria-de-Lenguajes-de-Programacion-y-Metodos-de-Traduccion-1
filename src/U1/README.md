@@ -1,4 +1,5 @@
-# Resumen: Unidad de Compiladores y Lenguajes Formales
+## Resumen de Unidad 1
+# Compiladores y Lenguajes Formales
 
 ## Compiladores y Lenguajes de Programación
 En esta sección, se abordan los fundamentos esenciales relacionados con los compiladores y los lenguajes de programación. Se examina el papel de los traductores, incluyendo tanto intérpretes como compiladores, en la transformación del código fuente en código ejecutable. Asimismo, se proporciona una exposición detallada sobre la función y la importancia de los compiladores en el proceso de traducción.
