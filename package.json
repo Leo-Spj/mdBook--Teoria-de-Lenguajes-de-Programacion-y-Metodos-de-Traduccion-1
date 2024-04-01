@@ -7,8 +7,8 @@
     "deploy": "gh-pages -d book"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Leonardo Espejo",
+  "license": "MIT",
   "dependencies": {
     "gh-pages": "^6.1.1"
   }
