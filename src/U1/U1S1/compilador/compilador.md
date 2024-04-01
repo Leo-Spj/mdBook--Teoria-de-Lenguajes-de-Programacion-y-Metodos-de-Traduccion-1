@@ -32,3 +32,21 @@ De manera general el proceso de compilacion consta de 2 fases principales:
 2. **Síntesis:** En esta fase, el compilador genera el código objeto a partir de la representación intermedia generada en la fase de análisis. Esta fase también puede incluir la optimización del código generado.
 
 
+
+## Ventajas y Desventajas de la Compilación
+
+### Ventajas de la Compilación
+
+1. **Rendimiento:** Los programas compilados suelen ser más rápidos y eficientes en tiempo de ejecución porque el código se optimiza durante la compilación.
+
+2. **Seguridad:** El código fuente no está disponible en el programa compilado, lo que puede proteger la propiedad intelectual.
+
+3. **Independencia del lenguaje fuente:** Una vez compilado, el programa puede ejecutarse en cualquier plataforma que soporte el código de máquina generado.
+
+### Desventajas de la Compilación
+
+1. **Tiempo de compilación:** Los programas grandes pueden llevar mucho tiempo para compilar.
+
+2. **Dependencia de la plataforma:** El código compilado es específico de la plataforma para la que se compiló. Si se necesita ejecutar el programa en diferentes plataformas, se debe compilar por separado para cada una.
+
+3. **Dificultad para depurar:** Los errores en tiempo de ejecución pueden ser más difíciles de rastrear porque el código que se está ejecutando es diferente del código fuente original.

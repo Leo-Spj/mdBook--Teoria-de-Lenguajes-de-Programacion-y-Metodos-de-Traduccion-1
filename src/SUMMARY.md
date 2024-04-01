@@ -18,7 +18,7 @@
                 - [Generación de Código Intermedio](./U1/U1S1/compilador/sintesis/generacion_codigo_intermedio.md)
                 - [Optimización de Código](./U1/U1S1/compilador/sintesis/optimizacion_codigo.md)
                 - [Generación de Código Objeto](./U1/U1S1/compilador/sintesis/generacion_codigo_objeto.md)
-        - [Tokenización en Compiladores](./U1/U1S1/t4.md)
+        
     2. [Lenguaje Símbolo](./U1/U1S2/README.md)
     3. [Lenguaje regular](./U1/U1S3/README.md)
     4. [Expresiones regulares para tokens](./U1/U1S4/README.md)
