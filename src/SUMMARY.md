@@ -15,9 +15,9 @@
                 - [Análisis Sintáctico](./U1/U1S1/compilador/analisis/analisis_sintactico.md)
                 - [Análisis Semántico](./U1/U1S1/compilador/analisis/analisis_semantico.md)
             - [Fase de Síntesis](./U1/U1S1/compilador/sintesis/README.md)
-                - [Generación de Código Intermedio](./U1/U1S1/compilador/sintesis/generacion_codigo_intermedio.md)
-                - [Optimización de Código](./U1/U1S1/compilador/sintesis/optimizacion_codigo.md)
-                - [Generación de Código Objeto](./U1/U1S1/compilador/sintesis/generacion_codigo_objeto.md)
+                - [Generación de Código Intermedio]()
+                - [Optimización de Código]()
+                - [Generación de Código Objeto]()
         
     2. [Lenguaje Símbolo](./U1/U1S2/README.md)
     3. [Lenguaje regular](./U1/U1S3/README.md)

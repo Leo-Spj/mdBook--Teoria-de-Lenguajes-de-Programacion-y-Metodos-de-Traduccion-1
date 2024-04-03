@@ -13,7 +13,11 @@ El análisis léxico se desarrolla en varias etapas que garantizan una adecuada 
 
 3. **Agrupación en Tokens**: Los caracteres restantes se agrupan en unidades llamadas tokens. Un token es una secuencia de caracteres que representa una unidad semántica significativa dentro del código.
 
-### Tipos de Tokens
+### Tokens
+
+Un token es una secuencia de caracteres que forman una unidad significativa
+
+#### Tipos de Tokens
 
 - **Palabras Reservadas**: Representan instrucciones o comandos predefinidos en el lenguaje de programación, como IF, THEN, ELSE.
 
@@ -78,7 +82,7 @@ Este código se convierte en una secuencia de tokens significativos para el comp
 [61] [27] [85] [27]
 ```
 
-En este ejemplo, el token "IF" se identifica con el número 27 y el identificador "Plazo" con 27.
+En este ejemplo, el token "IF" se identifica con el número [59], el identificador "Plazo" con el número [27], el operador ">=" con el número [80], y así sucesivamente.
 
 
 ## Diferencia entre Lexema y Token
