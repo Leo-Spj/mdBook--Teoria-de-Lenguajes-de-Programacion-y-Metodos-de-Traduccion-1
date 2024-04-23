@@ -18,9 +18,8 @@
                 - [Generación de Código Intermedio]()
                 - [Optimización de Código]()
                 - [Generación de Código Objeto]()
-        
-    2. [Lenguaje Símbolo](./U1/U1S2/README.md)
-    3. [Lenguaje regular](./U1/U1S3/README.md)
+    2. [Elementos Básicos de los Lenguajes Formales: Alfabetos, Cadenas y Lenguajes](./U1/U1S2/elementos_basicos.md)
+    3. [Lenguaje regular](./U1/U1S3/Introduccion.md)
     4. [Expresiones regulares para tokens](./U1/U1S4/README.md)
     5. [Autómatas finitos deterministas (DFA)](./U1/U1S5/README.md)
 
