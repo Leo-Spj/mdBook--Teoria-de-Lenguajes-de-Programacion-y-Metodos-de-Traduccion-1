@@ -23,7 +23,11 @@ Si prefieres trabajar con los resúmenes localmente:
 
 1. Clona este repositorio en tu máquina local.
 2. Instala mdBook siguiendo las [instrucciones de instalación](https://github.com/rust-lang/mdBook#installation).
-3. Navega al directorio de este proyecto `/mdBook-TLPMT1` y ejecuta el comando `mdbook serve`.
+3. Navega al directorio de este proyecto `/mdBook-TLPMT1` y ejecuta el siguiente comando:
+    
+    ```bash
+    mdbook serve
+    ```
 4. Abre tu navegador web y visita `http://localhost:3000` para ver los resúmenes.
 
 ## Contribuciones
