@@ -18,7 +18,7 @@ Esta definición indica que las expresiones regulares pueden contener:
 
 * Letras del alfabeto que forman palabras.
 * Concatenaciones, sumas, multiplicaciones y clausuras.
-* La cadena vacía `λ` (lambda).
+* La cadena vacía `λ` (lambda). Siempre se incluye en las expresiones regulares.
 
 **Ejemplo 1:**
 
@@ -61,3 +61,101 @@ Esta expresión regular se puede interpretar de la siguiente manera:
 ```
 bbb*a
 ```
+
+-----------
+
+#  Operaciones con Cadenas
+
+Claro, aquí tienes el contenido formateado en estilo markdown para un libro mdBook:
+
+
+# Conceptos Fundamentales de Cadenas
+
+## Concatenación
+
+La concatenación es una operación fundamental en el procesamiento de cadenas. Consiste en combinar dos cadenas para formar una nueva cadena más larga. Es importante tener en cuenta que el orden de las cadenas en la concatenación importa. Por ejemplo:
+
+```plaintext
+W = "01"
+X = "10"
+
+Concatenación: WX = "0110"
+```
+
+Además, la longitud de la cadena resultante de la concatenación es igual a la suma de las longitudes de las cadenas originales:
+
+```plaintext
+|WX| = |W| + |X|
+```
+
+## Cadenas
+
+En el manejo de cadenas, es común realizar operaciones como calcular el cuadrado de una cadena o encontrar subcadenas. Consideremos las cadenas:
+
+```plaintext
+W = "LETRA"
+X = "PALABRA"
+```
+
+Para calcular el cuadrado de una cadena, simplemente concatenamos la cadena consigo misma:
+
+```plaintext
+(W)^2 = "LETRALETRA"
+(X)^2 = "PALABRAPALABRA"
+```
+
+### Ejemplo de Concatenación y Cuadrado de Cadenas:
+
+```plaintext
+W = "01"
+X = "10"
+
+Concatenación: WX = "0110"
+(WX)^2 = "01100110"
+(W)^2 = "0101"
+(X)^2 = "1010"
+W^2X^2 = "01011010"
+```
+
+## Subcadena
+
+Una subcadena es una secuencia de caracteres contenida dentro de una cadena más larga. Para la cadena "LETRA", las subcadenas posibles son:
+
+```plaintext
+Y0 = ""
+Y1 = "L"
+Y2 = "E"
+Y3 = "T"
+Y4 = "R"
+Y5 = "A"
+Y6 = "LE"
+Y7 = "ET"
+Y8 = "TR"
+Y9 = "RA"
+Y10 = "LET"
+Y11 = "ETR"
+Y12 = "TRA"
+Y13 = "LETR"
+Y14 = "ETRA"
+Y15 = "LETRA"
+```
+
+En total, hay 15 subcadenas posibles para la cadena "LETRA".
+
+
+Este contenido resalta los conceptos fundamentales de cadenas y proporciona ejemplos claros para una comprensión más profunda.
+
+
+<!-- ### Fórmula para el número total de subcadenas
+
+Hay una fórmula que te permite calcular el número total de subcadenas de una cadena de longitud \( n \) de manera rápida. Puedes utilizar la fórmula matemática:
+
+\[ \text{Total de subcadenas} = \frac{{n \times (n + 1)}}{2} \]
+
+Esta fórmula se deriva del hecho de que para cada longitud de subcadena \( k \) (donde \( k \) va desde \( 1 \) hasta \( n \)), hay \( n - k + 1 \) subcadenas posibles de longitud \( k \). Sumando estos números para todas las longitudes posibles de subcadenas, obtenemos el total de subcadenas.
+
+Por ejemplo, si tienes una cadena de longitud \( 5 \) (como en tu caso), puedes calcular el número total de subcadenas usando la fórmula:
+
+\[ \text{Total de subcadenas} = \frac{{5 \times (5 + 1)}}{2} = \frac{{5 \times 6}}{2} = \frac{{30}}{2} = 15 \]
+
+Entonces, hay \( 15 \) subcadenas posibles en una cadena de longitud \( 5 \). Esta fórmula te permite calcular rápidamente el número total de subcadenas sin tener que enumerarlas una por una. -->
