@@ -30,6 +30,11 @@ Si prefieres trabajar con los resúmenes localmente:
     ```
 4. Abre tu navegador web y visita `http://localhost:3000` para ver los resúmenes.
 
+## Funcionalidades Adicionales
+
+Si estás interesado en utilizar gráficos Mermaid en mdBook puedes encontrar instrucciones completas sobre cómo instalar y utilizar esta funcionalidad en la [documentación de mdbook-mermaid](https://github.com/badboy/mdbook-mermaid?tab=readme-ov-file#installation).
+
+
 ## Contribuciones
 
 ¡Las contribuciones son bienvenidas! Si encuentras errores, tienes sugerencias o deseas agregar más contenido, no dudes en abrir un problema o enviar una solicitud de extracción.
