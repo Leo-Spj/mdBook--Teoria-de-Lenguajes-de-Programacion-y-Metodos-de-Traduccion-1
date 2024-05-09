@@ -10,6 +10,7 @@ default-theme = "Rust"
 preferred-dark-theme = "Ayu"
 git-repository-url = "https://github.com/Leo-Spj/mdBook-TLPMT1"
 additional-js = ["mermaid.min.js", "mermaid-init.js"]
+mathjax-support = true
 
 [preprocessor]
 

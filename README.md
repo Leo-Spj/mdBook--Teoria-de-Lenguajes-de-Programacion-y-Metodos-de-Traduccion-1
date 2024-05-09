@@ -34,6 +34,16 @@ Si prefieres trabajar con los resúmenes localmente:
 
 Si estás interesado en utilizar gráficos Mermaid en mdBook puedes encontrar instrucciones completas sobre cómo instalar y utilizar esta funcionalidad en la [documentación de mdbook-mermaid](https://github.com/badboy/mdbook-mermaid?tab=readme-ov-file#installation).
 
+Para visualizar correctamente las expresiones matemáticas en mdBook con MathJax, es necesario habilitar el soporte para MathJax en el archivo de configuración de mdBook, `book.toml`. Esto se puede hacer añadiendo la siguiente sección:
+
+```toml
+[output.html]
+mathjax-support = true
+```
+se usa `\\(` ***para expresiones de linea***  `\\)`, y `\\[` ***para expresiones en bloque*** `\\]`.
+
+
+
 
 ## Contribuciones
 

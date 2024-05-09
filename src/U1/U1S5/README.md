@@ -13,12 +13,13 @@ Los Autómatas Finitos Deterministas (DFA) son un tipo específico de autómata 
 
 ### Definición y Características
 
-Un DFA se define formalmente como una tupla $(Q, \Sigma, \delta, q_0, F)$, donde:
-- $Q$ es un conjunto finito de estados.
-- $\Sigma$ es un conjunto finito de símbolos de entrada (alfabeto).
-- $\delta$ es la función de transición, que mapea un estado y un símbolo de entrada a un estado.
-- $q_0$ es el estado inicial.
-- $F$ es un conjunto de estados finales o de aceptación.
+
+Un DFA se define formalmente como una tupla \\(Q, \Sigma, \delta, q_0, F\\), donde:
+- \\(Q\\) es un conjunto finito de estados.
+- \\(\Sigma\\) es un conjunto finito de símbolos de entrada (alfabeto).
+- \\(\delta\\) es la función de transición, que mapea un estado y un símbolo de entrada a un estado.
+- \\(q_0\\) es el estado inicial.
+- \\(F\\) es un conjunto de estados finales o de aceptación.
 
 ### Estados, Estado Inicial, Estados Finales
 
