@@ -30,6 +30,8 @@
 
         <!-- Custom theme stylesheets -->
 
+        <!-- MathJax -->
+        <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     </head>
     <body class="sidebar-visible no-js">
     <div id="body-container">
@@ -183,13 +185,13 @@
 <h2 id="autómatas-finitos-deterministas-dfa"><a class="header" href="#autómatas-finitos-deterministas-dfa">Autómatas Finitos Deterministas (DFA)</a></h2>
 <p>Los Autómatas Finitos Deterministas (DFA) son un tipo específico de autómata caracterizado por tener un conjunto finito de estados, una única transición definida para cada estado y símbolo de entrada, y la capacidad de determinar de manera única su próximo estado.</p>
 <h3 id="definición-y-características"><a class="header" href="#definición-y-características">Definición y Características</a></h3>
-<p>Un DFA se define formalmente como una tupla $(Q, \Sigma, \delta, q_0, F)$, donde:</p>
+<p>Un DFA se define formalmente como una tupla \(Q, \Sigma, \delta, q_0, F\), donde:</p>
 <ul>
-<li>$Q$ es un conjunto finito de estados.</li>
-<li>$\Sigma$ es un conjunto finito de símbolos de entrada (alfabeto).</li>
-<li>$\delta$ es la función de transición, que mapea un estado y un símbolo de entrada a un estado.</li>
-<li>$q_0$ es el estado inicial.</li>
-<li>$F$ es un conjunto de estados finales o de aceptación.</li>
+<li>\(Q\) es un conjunto finito de estados.</li>
+<li>\(\Sigma\) es un conjunto finito de símbolos de entrada (alfabeto).</li>
+<li>\(\delta\) es la función de transición, que mapea un estado y un símbolo de entrada a un estado.</li>
+<li>\(q_0\) es el estado inicial.</li>
+<li>\(F\) es un conjunto de estados finales o de aceptación.</li>
 </ul>
 <h3 id="estados-estado-inicial-estados-finales"><a class="header" href="#estados-estado-inicial-estados-finales">Estados, Estado Inicial, Estados Finales</a></h3>
 <p>Los estados representan las diferentes situaciones en las que puede encontrarse el autómata durante su procesamiento. El estado inicial es el estado en el que el autómata comienza su ejecución, mientras que los estados finales son aquellos en los que el autómata finaliza su procesamiento y reconoce una cadena como válida.</p>
