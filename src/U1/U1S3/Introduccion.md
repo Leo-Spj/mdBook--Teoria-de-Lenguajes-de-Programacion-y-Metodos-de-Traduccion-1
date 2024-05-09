@@ -58,6 +58,11 @@ Esta expresión regular se puede interpretar de la siguiente manera:
 
 **Ejemplo 4:** La expresión regular del lenguaje cuyas palabras están formadas por las letras del alfabeto `V = {a, b}` y consisten en 3 o más letras `"b"` seguidas de una letra `"a"`, es:
 
+``` python
+bbbb*a  # Aqui la cuarta b pued ser vacia por la clausula de kleene
+
+# o también:
+
+bbb+a   # Aqui la tercera b no puede ser vacia
 ```
-bbb*a
-```
+
