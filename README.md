@@ -40,9 +40,8 @@ Para visualizar correctamente las expresiones matemáticas en mdBook con MathJax
 [output.html]
 mathjax-support = true
 ```
-se usa `\\(` ***para expresiones de linea***  `\\)`, y `\\[` ***para expresiones en bloque*** `\\]`.
 
-
+Puedes encontrar instrucciones completas sobre la **habilitación** y **uso** en la [documentación de mdBook](https://rust-lang.github.io/mdBook/format/mathjax.html).
 
 
 ## Contribuciones
