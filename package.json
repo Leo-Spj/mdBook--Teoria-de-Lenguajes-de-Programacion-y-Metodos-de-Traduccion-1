@@ -4,7 +4,9 @@
   "description": "Este repositorio contiene resúmenes estructurados del curso de Teoría de Lenguajes de Programación y Métodos de Traducción 1, realizado como parte del programa académico de la Universidad Tecnológica del Perú, carrera de Ingeniería de Software.",
   "main": "index.js",
   "scripts": {
-    "deploy": "gh-pages -d book"
+    "serve": "mdbook serve",
+    "build": "mdbook build",
+    "deploy": "mdbook build && gh-pages -d book"
   },
   "keywords": [],
   "author": "Leonardo Espejo",
